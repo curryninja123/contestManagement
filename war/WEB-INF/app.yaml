@@ -76,6 +76,10 @@ handlers:
 - url: /500
   servlet: errors.ServerError_500
   
+- url: /clearStuff
+  servlet: contestWebsite.ClearStuff
+  login: admin
+  
 static_files:
   - include: /favicon.ico
     expiration: 14d
