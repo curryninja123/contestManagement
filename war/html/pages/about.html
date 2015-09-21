@@ -47,7 +47,9 @@
 		<div class="row">
 			<div class="col-sm-6">
 				#if($schedule)
-					<h2>Schedule</h2>
+					<div class = "text-center">
+						<h2>Schedule</h2>
+					</div>
 					<dl class="dl-horizontal"> <!-- TODO: Add FullCalendar JS Calendar -->
 						#foreach($entry in $schedule.entrySet())
 							<dt>$entry.key</dt>
